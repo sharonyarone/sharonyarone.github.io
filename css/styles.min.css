@@ -364,7 +364,7 @@ section .header {
 }
 .houppa-img {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, #ffffff),
-              url("../img/table.webp") center bottom;
+              url("../img/a.webp") center bottom;
 }
 .rsvp-img {
   
@@ -485,7 +485,6 @@ header .member-actions {
   margin: 8vh 0;
   background-color: #fff;
   padding: 20px;
-  border: 4px solid #e8ca6f;
   opacity: 0.94;
   width: 95vw;
   text-align: center;
@@ -493,6 +492,7 @@ header .member-actions {
   flex-direction: column;
   gap: 10px;
   position: relative;
+  border-radius: 10px;
 }
 
 .hebrew-text {
@@ -501,7 +501,7 @@ header .member-actions {
 
 .main-title h1 {
   margin: 10px 0;
-  color: antiquewhite;
+  color: #777;
 }
 
 .rings img {

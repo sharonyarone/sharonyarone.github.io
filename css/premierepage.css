@@ -19,9 +19,9 @@
     align-items: center;
     flex-direction: column;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9));
-    border-radius: 3px;
+    border-radius: 30px;
     width: 80vw;
-    height: 55vh;
+    height: 70vh;
     min-height: 400px;
 }
 
