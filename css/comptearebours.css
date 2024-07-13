@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-position: 5px 5px;
   background-color: transparent;
-  color: black;
+  color: #026132;
   text-align: center;
   width: 80vw;
   padding: 0 5px 10px 5px;
@@ -29,8 +29,8 @@
   width: 10vw;
   border-radius: 50%;
 
-    border-right: 1px solid gray;
-    border-bottom: 1.5px solid gray;
+    border-right: 1px solid #026132;
+    border-bottom: 1.5px solid #026132;
 }
 .textCompteARebours{
   font-family: Pinyon Script;
