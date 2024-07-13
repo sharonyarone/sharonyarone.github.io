@@ -46,9 +46,7 @@ compte_a_rebours.innerHTML = prefixe + '<br /><div style=display:flex;justify-co
 + '<div class="block">'
 + '<div class="nb" >' + minutes + '</div><span class=textCompteARebours>' + mot_minute + '</span>'
 + '</div>'
-+ '<div class="block">'
-+ '<div class="nb" >' + secondes + '</div><span class=textCompteARebours>' + mot_seconde + '</span>'
-+ '</div></div>';
++ '</div>';
   } else {
     compte_a_rebours.innerHTML = 'Compte à rebours terminé.';
   }
