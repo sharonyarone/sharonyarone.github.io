@@ -454,13 +454,12 @@ header ul.primary-nav li {
   display: inline;
 }
 header ul.primary-nav li a {
-  font-weight: 600;
+  font-weight: 500;
   color: #026132;
   padding-right: 25px;
 }
 header ul.primary-nav li a:hover {
-  border: 0px;
-  color: #e8ca6f;
+  color: black;
 }
 header ul.primary-nav li:last-child a {
   padding-right: 0px;
@@ -470,7 +469,7 @@ header ul.member-actions li {
 }
 header ul.member-actions li a {
   color: #026132;
-  font-weight: 600;
+  font-weight: 500;
 }
 header ul.member-actions li a:hover {
   color: #fff;
