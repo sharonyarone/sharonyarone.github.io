@@ -455,7 +455,7 @@ header ul.primary-nav li {
 }
 header ul.primary-nav li a {
   font-weight: 500;
-  color: #026132;
+  color: #000;
   padding-right: 25px;
 }
 header ul.primary-nav li a:hover {
