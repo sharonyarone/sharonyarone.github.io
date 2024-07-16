@@ -78,18 +78,18 @@ h5 {
 }
 .btn-white:hover,
 .btn-white:focus {
-  color: #e8ca6f;
-  border-color: #e8ca6f;
+  color: #026132;
+  border-color: #026132;
 }
 .btn-fill {
   color: #fff;
-  border: solid 2px #e8ca6f;
+  border: solid 2px #026132;
   -moz-border-radius: 40px;
   -webkit-border-radius: 40px;
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #e8ca6f;
+  background-color: #026132;
 }
 .btn-fill:hover,
 .btn-fill:focus {
@@ -566,7 +566,7 @@ header .member-actions {
   position: relative;
 }
 .rsvp .rsvp-form .form-input-group i {
-  color: #e8ca6f;
+  color: #026132;
   font-size: 14px;
 }
 .rsvp .rsvp-form .form-input-group i:after {
@@ -649,14 +649,14 @@ header .member-actions {
   width: 14px;
   height: 14px;
 
-  border: 2px solid #e8ca6f;
+  border: 2px solid #026132;
   border-radius: 50%;
   background: white;
 }
 
 .radio-container input[type="radio"]:checked + .radio-label::before {
-  border-color: #e8ca6f;
-  background-color: #e8ca6f;
+  border-color: #026132;
+  background-color: #026132;
 }
 
 
