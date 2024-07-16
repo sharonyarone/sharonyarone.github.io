@@ -377,6 +377,9 @@ section .header {
 .rsvp {
   padding-top: 20px;
 }
+.houppa{
+  padding-top: 12vh;
+}
 .Mairie,
 .houppa,
 .rsvp {
@@ -390,13 +393,12 @@ section .header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10vh;
+  
 }
 .section-card .down-arrow a {
   color: #fff;
 }
 .section-card h1 {
-  color: #fff;
   margin-bottom: 40px;
 }
 .section-card p.intro {
@@ -487,7 +489,7 @@ header .member-actions {
 }
 
 .card {
-  margin: 8vh 0;
+  margin: 5vh 0 0 0;
   background-color: #fff;
   padding: 20px;
   opacity: 0.94;
@@ -503,7 +505,9 @@ header .member-actions {
 .hebrew-text {
   font-size: 2em;
 }
-
+.main-title {
+  margin-bottom: 100px;
+}
 .main-title h1 {
   margin: 10px 0;
   color: #026132;
