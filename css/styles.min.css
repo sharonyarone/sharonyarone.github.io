@@ -97,9 +97,9 @@ h5 {
 }
 .btn-fill:hover,
 .btn-fill:focus {
-  color: #fff;
-  background-color: #d3b56a;
-  border-color: #d3b56a;
+  color: #026132;
+  background-color: #fff;
+  border-color: #026132;
 }
 .btn-small {
   padding: 8px 30px;
@@ -546,8 +546,6 @@ header .member-actions {
 
 .button button {
   padding: 10px 20px;
-  background-color: #fff;
-  color: #000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
