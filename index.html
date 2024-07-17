@@ -15,6 +15,7 @@
       property="og:description"
       content="Sharon & Yarone vous invitent à partager le plus beau jour de leur vie."
     />
+    <meta property="og:image" content="/img/logo.jpeg" />
     <meta property="og:image" content="/img/hero.jpg" />
     <meta property="og:type" content="website" />
     <link rel="apple-touch-icon" sizes="180x180" href="img/logo.png" />
@@ -109,11 +110,13 @@
           <div class="families">
             <div>
               <p>M. & Mme Jaki et Sandrine Assouline</p>
+              <br>
               <p>M. & Mme Georges et Danielle Chiche</p>
               <p>Mme Georgette Assouline</p>
             </div>
             <div>
               <p>M. & Mme Michael et Valérie Dahan</p>
+              <br>
               <p>M & Mme Roland et Jeanine Maarek</p>
               <p>Mme Henriette Dahan</p>
             </div>
@@ -137,20 +140,15 @@
           <h2>
             26/09/2024
           </h2>
-          <p>à 18h00 précise</p>
+          <p>23 Eloul 5784<br /> à 18h00 précise</p>
           <p>
-            à l'Orangerie du manoir des Vignes<br />58 rue Bernard, 93000 BOBIGNY
+            à l'Orangerie du manoir des Vignes<br />58 rue Bernard, 93000 Bobigny
           </p>
           <p>La ceremonie religieuse sera suivie d’une récéption</p>
           <p class="note">
-            Une douce pensée pour nos grands-parents qui
+            Une douce pensée pour Papi Armand et Papi Maurice qui
             ne sont plus parmi nous.
           </p>
-          <div class="family-names">
-            <p>
-              Papi Armand et Papi Maurice
-            </p>
-          </div>
           <div class="button">
               <button class="btn" onclick="ouvrirItineraire()" style="border: 2px solid #026132;">Itinéraire</button>
           </div>
@@ -188,8 +186,8 @@
             à la mairie du Raincy<br />121 avenue de la resistance, 93340 LE
             RAINCY
           </p>
-          <p>La cérémonie sera suivie d’un vin d'honneur</p>
-          <p>19 All. la Fontaine<br />93190 Livry-Gargan</p>
+          <!-- <p>La cérémonie sera suivie d’un vin d'honneur</p>
+          <p>19 All. la Fontaine<br />93190 Livry-Gargan</p> -->
           
           
           <div class="button">
@@ -223,7 +221,7 @@
                       ><input
                         name="Nom"
                         class=""
-                        placeholder="Ton nom"
+                        placeholder="Votre nom"
                         required
                       />
                     </div>
@@ -234,7 +232,7 @@
                       ><input
                         name="Prenom"
                         class=""
-                        placeholder="Ton prénom"
+                        placeholder="Votre prénom"
                         required
                       />
                     </div>
@@ -285,16 +283,17 @@
                       </label>
                     </div>
                   </div>
-              
+                  
+                    <div class="col-md-12" id="alert-wrapper"></div>
                 
-                <div class="row">
-                  <div class="col-md-12" id="alert-wrapper"></div>
-                </div>
                 <button class="btn-fill rsvp-btn">Envoyer  <i class="fa fa-envelope-o" aria-hidden="true"></i></button>
               </form>
+            
             </div>
           </div>
+          
         </div>
+        
       </div>
     </section>
   </section>
@@ -377,7 +376,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <h5>Mairie du Raincy</h5>
-                  <p>121 avenue de la resistance, 93340 LE RAINCY</p>
+                  <p>121 avenue de la resistance, 93340 Le Raincy</p>
                 </div>
                 <div class="col-md-6 mb-5"></div>
               </div>
@@ -418,7 +417,7 @@
                 <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Voir les infos
               </div>
             </div>
-            <div id="map-content2" class="pointer-events-auto">
+            <!-- <div id="map-content2" class="pointer-events-auto">
               <div class="row">
                 <div class="col-md-6">
                   <h5>Vin d'honneur</h5>
@@ -440,7 +439,7 @@
                   >
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
