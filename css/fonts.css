@@ -31,9 +31,21 @@ src: url(../fonts/appleGaramond/AppleGaramond-Bold.eot?#iefix) format('embedded-
              url(../fonts/appleGaramond/AppleGaramond.woff) format('woff'),
              url(../fonts/appleGaramond/AppleGaramond.woff2) format('woff2');
       }
+
+      @font-face {
+        font-family: 'AppleGaramond-LightItalic';
+        src: url(../fonts/appleGaramond/AppleGaramond-LightItalic.eot);
+        src: url(../fonts/appleGaramond/AppleGaramond-LightItalic.eot?#iefix) format('embedded-opentype'),
+             url(../fonts/appleGaramond/AppleGaramond-LightItalic.otf) format('otf'),
+             url(../fonts/appleGaramond/AppleGaramond-LightItalic.svg#AppleGaramond-LightItalic) format('svg'),
+             url(../fonts/appleGaramond/AppleGaramond-LightItalic.ttf) format('truetype'),
+             url(../fonts/appleGaramond/AppleGaramond-LightItalic.woff) format('woff'),
+             url(../fonts/appleGaramond/AppleGaramond-LightItalic.woff2) format('woff2');
+      }
+      
       
 .families > div > p{
-        font-family:'AppleGaramond'!important
+        font-family:'AppleGaramond-LightItalic'!important
 }
 p,h2 {
         font-family: "AppleGaramond";
