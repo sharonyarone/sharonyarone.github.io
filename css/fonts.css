@@ -23,13 +23,13 @@ src: url(../fonts/appleGaramond/AppleGaramond-Bold.eot?#iefix) format('embedded-
 
 @font-face {
         font-family: 'AppleGaramond';
-        src: url(./fonts/appleGaramond/AppleGaramond.eot);
-        src: url(./fonts/appleGaramond/AppleGaramond.eot?#iefix) format('embedded-opentype'),
-             url(./fonts/appleGaramond/AppleGaramond.otf) format('otf'),
-             url(./fonts/appleGaramond/AppleGaramond.ttf) format('truetype'),
-             url(./fonts/appleGaramond/AppleGaramond.svg#AppleGaramond) format('svg'),
-             url(./fonts/appleGaramond/AppleGaramond.woff) format('woff'),
-             url(./fonts/appleGaramond/AppleGaramond.woff2) format('woff2');
+        src: url(../fonts/appleGaramond/AppleGaramond.eot);
+        src: url(../fonts/appleGaramond/AppleGaramond.eot?#iefix) format('embedded-opentype'),
+             url(../fonts/appleGaramond/AppleGaramond.otf) format('otf'),
+             url(../fonts/appleGaramond/AppleGaramond.ttf) format('truetype'),
+             url(../fonts/appleGaramond/AppleGaramond.svg#AppleGaramond) format('svg'),
+             url(../fonts/appleGaramond/AppleGaramond.woff) format('woff'),
+             url(../fonts/appleGaramond/AppleGaramond.woff2) format('woff2');
       }
       
 .families > div > p{
