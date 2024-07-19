@@ -2,19 +2,8 @@
 @import "https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic";
 @import "https://fonts.googleapis.com/css?family=Nunito:400,300,700";
 @import url("https://use.typekit.net/fou4bgn.css");
-@font-face {
-  font-family: 'NovaQuinta';
-  src: url(/fonts/NovaQuinta.eot);
-  src: url(/fonts/NovaQuinta.eot?#iefix) format('embedded-opentype'),
-       url(/fonts/NovaQuinta.woff2) format('woff2'),
-       url(/fonts/NovaQuinta.woff) format('woff'),
-       url(/fonts/NovaQuinta.ttf) format('truetype'),
-       url(/fonts/NovaQuinta.svg#NovaQuinta) format('svg'),
-       url(/fonts/NovaQuinta.otf) format('otf');
-}
 
 p {
-  font-weight: 400;
   font-size: 23px;
   line-height: 29px;
   color: rgba(28, 54, 83, 1);

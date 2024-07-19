@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'NovaQuinta';
+    src: url(/fonts/NovaQuinta/NovaQuinta.eot);
+    src: url(/fonts/NovaQuinta/NovaQuinta.eot) format('embedded-opentype'),
+         url(/fonts/NovaQuinta/NovaQuinta.woff2) format('woff2'),
+         url(/fonts/NovaQuinta/NovaQuinta.woff) format('woff'),
+         url(/fonts/NovaQuinta/NovaQuinta.ttf) format('truetype'),
+         url(/fonts/NovaQuinta/NovaQuinta.svg) format('svg'),
+         url(/fonts/NovaQuinta/NovaQuinta.otf) format('otf');
+  }
+
+
+@font-face {
+font-family: 'AppleGaramond-bold';
+src: url(../fonts/appleGaramond/AppleGaramond-Bold.eot);
+src: url(../fonts/appleGaramond/AppleGaramond-Bold.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/appleGaramond/AppleGaramond-Bold.woff2) format('woff2'),
+        url(../fonts/appleGaramond/AppleGaramond-Bold.woff) format('woff'),
+        url(../fonts/appleGaramond/AppleGaramond-Bold.ttf) format('truetype'),
+        url(../fonts/appleGaramond/AppleGaramond-Bold.svg#AppleGaramond-Bold) format('svg'),
+        url(../fonts/appleGaramond/AppleGaramond-Bold.otf) format('otf');
+}
+
+@font-face {
+        font-family: 'AppleGaramond';
+        src: url(./fonts/appleGaramond/AppleGaramond.eot);
+        src: url(./fonts/appleGaramond/AppleGaramond.eot?#iefix) format('embedded-opentype'),
+             url(./fonts/appleGaramond/AppleGaramond.otf) format('otf'),
+             url(./fonts/appleGaramond/AppleGaramond.ttf) format('truetype'),
+             url(./fonts/appleGaramond/AppleGaramond.svg#AppleGaramond) format('svg'),
+             url(./fonts/appleGaramond/AppleGaramond.woff) format('woff'),
+             url(./fonts/appleGaramond/AppleGaramond.woff2) format('woff2');
+      }
+      
+.families > div > p{
+        font-family:'AppleGaramond'!important
+}
+p,h2 {
+        font-family: "AppleGaramond";
+}
+  
