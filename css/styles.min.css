@@ -56,19 +56,19 @@ h5 {
 }
 .btn {
   font-size: 13px;
-  border: solid 2px;
+  border:2px solid #026132 ;
   -moz-border-radius: 40px;
   -webkit-border-radius: 40px;
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #026132;
-  color: #fff;
+  background-color: transparent;
+  color: #026132;
 }
 .btn:hover,
 .btn:focus {
-  color: #026132;
-  background-color: transparent;
+  color: #fff;
+  background-color: #026132;
   
 }
 .btn-white {
