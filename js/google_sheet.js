@@ -25,7 +25,7 @@ const attendanceRadios = document.getElementsByName('attendance');
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
   .then(response => {
     $('.loading').css("display","none");
-    $('#alert-wrapper').html(alert_markup('success', '<strong>Super !</strong> On vous attend ! '));
+    $('#alert-wrapper').html(alert_markup('success', '<strong>Super !</strong> On a hâte ! '));
     form.reset(); 
     })
   .catch(error => console.error('Error!', error.message))
