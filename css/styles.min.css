@@ -14,9 +14,7 @@
 }
 
 p {
-  font-family: "adobe-caslon-pro", serif;
   font-weight: 400;
-  font-style: italic;
   font-size: 23px;
   line-height: 29px;
   color: rgba(28, 54, 83, 1);
@@ -523,6 +521,8 @@ header .member-actions {
 }
 
 .families {
+  font-family: "adobe-caslon-pro", serif;
+  font-style: italic;
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
