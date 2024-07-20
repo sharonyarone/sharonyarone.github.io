@@ -362,7 +362,7 @@ section .header {
 .rsvp-img {
   
   background:  linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0) 30%),
-               url("../img/cadreplante.jpg") center bottom;
+               url("../img/formulaire.jpg") center bottom;
 }
 .Mairie,
 .rsvp {
