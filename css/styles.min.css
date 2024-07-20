@@ -558,14 +558,14 @@ header .member-actions {
   position: relative;
   resize: none;
 }
-textarea::placeholder {
-  position: absolute;
-  width: 100%;
-  text-align: center;
+textarea {
+  height: 100px !important; /* Taille du textarea */
+  resize: vertical; /* Permettre le redimensionnement vertical */
 }
 
-textarea {
-  height: 100px !important;
+/* Centrer le texte du placeholder */
+textarea::placeholder {
+  text-align: center;
 }
 
 .rsvp .rsvp-form .form-input-group i {
