@@ -565,6 +565,7 @@ textarea {
 
 /* Centrer le texte du placeholder */
 textarea::placeholder {
+  font-size: small;
   text-align: center;
 }
 
