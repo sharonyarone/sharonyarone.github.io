@@ -573,7 +573,8 @@ header .member-actions {
 .rsvp .rsvp-form .form-input-group i.fa-user,
 .rsvp .rsvp-form .form-input-group i.fa-users,
 .rsvp .rsvp-form .form-input-group i.fa-envelope,
-.rsvp .rsvp-form .form-input-group .fa-key {
+.rsvp .rsvp-form .form-input-group .fa-key,
+.rsvp .rsvp-form .form-input-group .fa-pencil {
   font-size: 14px;
   position: absolute;
   top: 50%;
@@ -725,3 +726,18 @@ header .member-actions {
   font-size: 20px;
 }
 
+.form-input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical; /* Permet au champ de s'agrandir verticalement */
+}
+
+.form-input-group i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
