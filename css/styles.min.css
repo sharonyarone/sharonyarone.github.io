@@ -495,11 +495,14 @@ header .member-actions {
   font-size: 2em;
 }
 .main-title {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 .main-title h1 {
   margin: 10px 0;
   color: #026132;
+}
+.couple{
+  margin-top: 20px;
 }
 
 .rings img {

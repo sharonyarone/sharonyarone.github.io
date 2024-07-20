@@ -15,9 +15,7 @@
 
 /* Responsive nav kicks in */
 @media screen and (max-width: 991px) {
-    .main-title{
-        margin-bottom: 15px;
-    }
+   
     header {
         width: 90%;
         padding-left: 25px;
