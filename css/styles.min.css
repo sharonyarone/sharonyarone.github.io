@@ -543,7 +543,7 @@ header .member-actions {
   width: 100%;
   font-size: 13px;
 }
-.rsvp .rsvp-form .form-input-group {
+.rsvp .rsvp-form .form-input-group,.form-input-group textarea {
   width: 100%;
   height: 55px;
   margin: 0 auto 10px;
@@ -553,7 +553,21 @@ header .member-actions {
   border: solid 1px #e6e9ea;
   text-align: left;
   position: relative;
+  resize: none;
 }
+textarea::placeholder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+textarea {
+  height: 100px !important;
+}
+
 .rsvp .rsvp-form .form-input-group i {
   color: #026132;
   font-size: 14px;
@@ -724,14 +738,14 @@ header .member-actions {
   font-size: 20px;
 }
 
-.form-input-group textarea {
+/* .form-input-group textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 4px;
   font-size: 16px;
-  resize: vertical; /* Permet au champ de s'agrandir verticalement */
-}
+  resize: vertical; /* Permet au champ de s'agrandir verticalement 
+} */
 
 .form-input-group i {
   position: absolute;
