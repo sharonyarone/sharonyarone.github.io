@@ -756,3 +756,7 @@ textarea {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.sizeDate{
+  font-size: x-large;
+}
