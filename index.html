@@ -106,8 +106,14 @@
             <defs>
               <path id="curve" d="M 50 100 Q 250 0 450 100" fill="transparent"/>
             </defs>
-            <text  font-size="24" fill="black">
-              <textPath href="#curve" startOffset="50%"  text-anchor="middle">
+            <style>
+              text {
+                unicode-bidi: bidi-override;
+                direction: rtl;
+              }
+            </style>
+            <text font-size="24" fill="black">
+              <textPath href="#curve" startOffset="50%" text-anchor="middle">
                 עוד ישמע בערי יהודה ובחוצות ירושלים
               </textPath>
             </text>
@@ -117,7 +123,7 @@
           </div>
           <div class="families">
             <div style="animation-duration: 2s;" class="animate__animated animate__backInLeft">
-              <p>M. & Mme Georges et Danielle Chiche</p>
+              <p>M. & MmeILAAAAN Georges et Danielle Chiche</p>
               <p>Mme Georgette Assouline</p>
               <p>M. & Mme Jaki et Sandrine Assouline</p>
             </div>
