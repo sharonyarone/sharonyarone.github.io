@@ -273,7 +273,12 @@
         margin: 120px 0 120px 0;
     }
 }
+@media screen and (min-width: 900px) {
+.houppa img{
+    width: 50%!important;
+}
 
+}
 @media screen and (max-width: 640px) {
     .blocBlanc{
         height: 40vh!important;
