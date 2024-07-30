@@ -3,6 +3,15 @@ const form = document.forms['rsvp-form']
 
 
 form.addEventListener('submit', e => {
+//disable button 
+var boutonEnvoyer = document.getElementById('rsvp-btn-envoyer');
+
+// Désactiver le bouton
+boutonEnvoyer.disabled = true;
+
+// Changer le style du bouton pour indiquer qu'il est désactivé
+boutonEnvoyer.style.opacity = '0.5';
+boutonEnvoyer.style.cursor = 'not-allowed';
 
 
 const attendanceRadios = document.getElementsByName('attendance');
@@ -27,9 +36,15 @@ const attendanceRadios = document.getElementsByName('attendance');
     $('.loading').css("display","none");
     $('#alert-wrapper').html(alert_markup('success', '<strong>Super !</strong> On a hâte ! '));
     form.reset(); 
+    setTimeout(function() {
+      window.location.reload();
+  }, 3000);
     })
   .catch(error => console.error('Error!', error.message))
 
-
     }
+
+
+
+
 })
