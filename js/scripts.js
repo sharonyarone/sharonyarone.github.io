@@ -160,22 +160,33 @@ document.getElementById("ouvrirInvit").addEventListener("click", function () {
     scalar: 4,
   });
 });
-function ouvrirItineraire() {
-  var elementCible = document.getElementById("deuxiemePage");
-  elementCible.style.display = "none";
-
-  var elementCible = document.getElementById("troisiemePage");
+function ouvrirItineraire(page) {
+  let ids = ["pageItineraires","deuxiemePage","pageMairie","pageHouppa"]
+  ids = ids.filter(id => id !== page);
+  var elementCible = document.getElementById(page);
   elementCible.style.display = "block";
+
+  ids.forEach(id => {
+    let elementCible = document.getElementById(id);
+    if (elementCible) { // Vérifie si l'élément existe
+        elementCible.style.display = "none";
+    }
+    
+  });
 
   window.scrollTo(0, 0);
 }
 
-document
-  .getElementById("retourDeuxiemePage")
-  .addEventListener("click", function () {
-    var elementCible = document.getElementById("troisiemePage");
-    elementCible.style.display = "none";
+function retourDeuxiemePage(){
+    let ids = ["pageItineraires","pageMairie","pageHouppa"]
+    ids.forEach(id => {
+      let elementCible = document.getElementById(id);
+      if (elementCible) { // Vérifie si l'élément existe
+          elementCible.style.display = "none";
+      }
+  });
 
     var elementCible = document.getElementById("deuxiemePage");
     elementCible.style.display = "block";
-  });
+
+}

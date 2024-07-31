@@ -539,6 +539,7 @@ header .member-actions {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin: 10px;
 }
 .rsvp .rsvp-form .rsvp-btn {
   padding: 15px 0;
